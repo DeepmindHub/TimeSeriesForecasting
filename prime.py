@@ -1,6 +1,4 @@
-# -*- coding: utf-8 -*-
-# Disponibilizado originalmente em http://www.mariofilho.com
-# Código disponibilizado para fins educacionais, o autor não oferece quaisquer garantias.
+
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_absolute_error
 import numpy as np
