@@ -82,7 +82,7 @@ print 'MAE Último Valor', mean_absolute_error(y_pred_last,y_true)
 print 'MAE Média Móvel', mean_absolute_error(y_pred_ma,y_true)
 
 
-#Faz o teste Wilcoxon Signed-Rank para determinar significado estatístico da diferença nos erros
+
 # OPCIONAL - REQUER SCIPY
 #from scipy.stats import wilcoxon
 #error_linreg = abs(y_true - y_pred)
@@ -90,7 +90,7 @@ print 'MAE Média Móvel', mean_absolute_error(y_pred_ma,y_true)
 #print '\nWilcoxon P-value', wilcoxon(error_linreg,error_last)[1]/2.
 
 
-#Cria um gráfico dos valores reais, previsões da regressão linear e do modelo utilizando o último valor
+
 # OPCIONAL - REQUER MATPLOTLIB
 #from matplotlib import pyplot as plt
 #plt.title('Prime Rate Brasil - Mensal - 2005 a 2014')
